@@ -5,7 +5,7 @@
   "utilisateur": "agent",
   "bootstrap": "bootstrap.sh",
   "repertoire": "~/profile",
-  "livres": ["pratique/table", "equipe/orchestrateur", "equipe/contrats"],
+  "livres": ["equipe/table", "equipe/orchestrateur", "equipe/contrats"],
   "agent": {
     "nature": "claude",
     "mode": "bypassPermissions",
