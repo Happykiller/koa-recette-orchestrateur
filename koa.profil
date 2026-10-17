@@ -1,0 +1,14 @@
+{
+  // Orchestrateur du banc métier de KoA (plan 112) : jetable. Il sert le dépôt partagé du projet.
+  "version": 1,
+  "nom": "koa-recette-orchestrateur",
+  "utilisateur": "agent",
+  "bootstrap": "bootstrap.sh",
+  "repertoire": "~/profile",
+  "agent": {
+    "nature": "claude",
+    "mode": "bypassPermissions",
+    "modele": "sonnet",
+    "consigne": "Lis CLAUDE.md, puis fais ce qu'il demande."
+  }
+}
